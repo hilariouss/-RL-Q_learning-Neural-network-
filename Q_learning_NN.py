@@ -87,3 +87,4 @@ with tf.Session() as sess:
 ##########################################
 print("Percent of successful episodes: " + str(sum(RewardList)/num_episodes))
 plt.plot(RewardList)
+plt.plot(stepList)
